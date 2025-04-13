@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add a Recipe</title>
+</head>
+<body>
+  <h1>Add Your Recipe</h1>
+  <form>
+    <label>Recipe Name: <input type="text" name="recipe-name" required></label><br><br>
+
+    <label>Ingredients:<br>
+      <textarea name="ingredients" rows="5" required></textarea>
+    </label><br><br>
+
+    <label>Cooking Instructions:<br>
+      <textarea name="instructions" rows="5" required></textarea>
+    </label><br><br>
+
+    <label>Image URL: <input type="url" name="image-url"></label><br><br>
+
+    <label>Recipe Category:
+      <select name="category" required>
+        <option>Desserts</option>
+        <option>Appetizers</option>
+        <option>Quick Meals</option>
+      </select>
+    </label><br><br>
+
+    <button type="submit">Add Recipe</button>
+  </form>
+</body>
+</html>
